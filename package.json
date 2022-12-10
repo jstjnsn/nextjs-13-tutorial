@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "db": "pocketbase.exe serve",
+    "db": "docker run -it --rm -p 8090:8090 pocketbase",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
